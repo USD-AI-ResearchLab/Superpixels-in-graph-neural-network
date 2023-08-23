@@ -1,0 +1,14 @@
+common
+**/*.DS_Store
+**/*.ipynb_checkpoints/
+**/__pycache__
+out/
+venv/
+
+data/Output Segmentation/*
+data/superpixels/*.pkl
+data/superpixels/*.zip
+PATH/
+
+
+
