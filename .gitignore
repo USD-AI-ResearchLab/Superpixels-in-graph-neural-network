@@ -7,7 +7,7 @@ venv/
 
 data/Output Segmentation/*
 data/superpixels/*.pkl
-# data/*.pkl
+data/*.pkl
 data/superpixels/*.zip
 PATH/
 
