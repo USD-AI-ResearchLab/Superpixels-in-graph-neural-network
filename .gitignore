@@ -7,11 +7,11 @@ venv/
 
 data/Output Segmentation/*
 data/superpixels/*.pkl
-data/*.pkl
+# data/*.pkl
 data/superpixels/*.zip
 PATH/
 
-introduction_to_creating_superpixel.ipynb
+# introduction_to_creating_superpixel.ipynb
 
 
 
