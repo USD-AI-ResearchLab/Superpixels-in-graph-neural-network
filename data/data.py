@@ -11,7 +11,7 @@ def LoadData(DATASET_NAME):
         ; dataset object
     """
    
-    # handling for MNIST or CIFAR Superpixels
+    # handling for different superpixels datasets 
     if DATASET_NAME in ['LUNGS_75','LUNGS_200','LUNGS_300','LUNGS_400']:
         return SuperPixDataset(DATASET_NAME)
     

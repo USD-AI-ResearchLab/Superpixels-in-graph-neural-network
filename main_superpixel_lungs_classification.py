@@ -249,9 +249,7 @@ def train_val_pipeline(MODEL_NAME, dataset, params, net_params, dirs):
 def main():    
     """
         USER CONTROLS
-    """
-    
-    
+    """    
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', help="Please give a config.json file with training/model/data/param details")
     parser.add_argument('--gpu_id', help="Please give a value for gpu id")
@@ -425,9 +423,6 @@ def main():
     
     
 main()    
-
-
-
 
 
 

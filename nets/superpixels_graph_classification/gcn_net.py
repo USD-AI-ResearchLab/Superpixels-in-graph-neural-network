@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
 import dgl
 
 """
@@ -9,6 +8,7 @@ import dgl
     Thomas N. Kipf, Max Welling, Semi-Supervised Classification with Graph Convolutional Networks (ICLR 2017)
     http://arxiv.org/abs/1609.02907
 """
+
 from layers.gcn_layer import GCNLayer
 from layers.mlp_readout_layer import MLPReadout
 
