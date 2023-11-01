@@ -10,5 +10,6 @@ data/superpixels/*.pkl
 data/superpixels/*.zip
 PATH/
 
+/introduction_to_creating_superpixel.ipynb
 
 

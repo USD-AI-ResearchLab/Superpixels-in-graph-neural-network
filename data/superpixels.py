@@ -83,7 +83,7 @@ class SuperPixDGL(torch.utils.data.Dataset):
         
         self.graph_lists = []
         
-        if DATASET_NAME in ['LUNGS_75','LUNGS_200','LUNGS_300','LUNGS_400']:
+        if dataset in ['LUNGS_75','LUNGS_200','LUNGS_300','LUNGS_400']:
             self.img_size = 512
             with open(os.path.join(data_dir, 'lungs_400new_lungs_sp_%s.pkl' % split), 'rb') as f:
                 self.labels, self.sp_data = pickle.load(f)
